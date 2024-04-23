@@ -1,0 +1,68 @@
+[
+    {
+        "id": "001",
+        "name": "Shoes",
+        "stock": "200+",
+        "action": "Visit"
+    },
+    {   "id": "002",
+        "name": "Laptops",
+        "stock": "212+",
+        "action": "Visit"
+    },
+    {   "id": "003",
+        "name": "Cloths",
+        "stock": "-",
+        "action": "Visit"
+    },
+    {   "id": "004",
+        "name": "Kitchen",
+        "stock": "20+",
+        "action": "Visit"
+    },
+    {   "id": "005",
+        "name": "Home decoration",
+        "stock": "40+",
+        "action": "Visit"
+    },
+    {   "id": "006",
+        "name": "Toys",
+        "stock": "full",
+        "action": "Visit"
+    },
+    {   "id": "007",
+        "name": "Electronics",
+        "stock": 20,
+        "action": "Visit"
+    },
+    {   "id": "008",
+        "name": "Faishon",
+        "stock": 20,
+        "action": "Visit"
+    },
+    {   "id": "009",
+        "name": "Furniture",
+        "stock": 20,
+        "action": "Visit"
+    },
+    {   "id": "010",
+        "name": "Appliances",
+        "stock": "400+",
+        "action": "Visit"
+    },
+    {   "id": "011",
+        "name": "Beauty",
+        "stock": 120,
+        "action": "Visit"
+    },
+    {   "id": "012",
+        "name": "Grocery",
+        "stock": "10000+",
+        "action": "Visit"
+    },
+    {   "id": "013",
+        "name": "Gifts",
+        "stock": 900,
+        "action": "Visit"
+    }
+]

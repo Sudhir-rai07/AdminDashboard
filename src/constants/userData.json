@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "first_name": "Jyoti",
+        "last_name": "Jeffers",
+        "email": "jjeffers0@tumblr.com",
+        "gender": "Female",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "first_name": "Marci",
+        "last_name": "Hardiker",
+        "email": "mhardiker1@si.edu",
+        "gender": "Female",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "first_name": "Saw",
+        "last_name": "Bachshell",
+        "email": "sbachshell2@youtube.com",
+        "gender": "Male",
+        "isActive": false
+    },
+    {
+        "id": 4,
+        "first_name": "Leeland",
+        "last_name": "Elcy",
+        "email": "lelcy3@psu.edu",
+        "gender": "Male",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "first_name": "Obed",
+        "last_name": "Flounders",
+        "email": "oflounders4@stumbleupon.com",
+        "gender": "Male",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "first_name": "Antoinette",
+        "last_name": "Stoffers",
+        "email": "astoffers5@biblegateway.com",
+        "gender": "Female",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "first_name": "Obediah",
+        "last_name": "Glandfield",
+        "email": "oglandfield6@ow.ly",
+        "gender": "Genderqueer",
+        "isActive": false
+    },
+    {
+        "id": 8,
+        "first_name": "Lilla",
+        "last_name": "Goodere",
+        "email": "lgoodere7@surveymonkey.com",
+        "gender": "Female",
+        "isActive": false
+    }]
