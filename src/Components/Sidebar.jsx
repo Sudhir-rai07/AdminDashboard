@@ -13,7 +13,7 @@ const Sidebar = ({show}) => {
       }`}
     >
       <div>
-        <h2 className="text-3xl font-bold font-lato">Logo</h2>
+        <h2 className="text-3xl font-semibold tracking-widest font-lato">Admin</h2>
       </div>
       <div className="pb-4">
         <ul>
