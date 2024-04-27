@@ -44,9 +44,9 @@ const DashBoard = () => {
       </div>
 
       {/* Bar chart */}
-      <div className="flex flex-col justify-between w-full h-screen my-4 mt-10 sm:h-96 sm:flex-row sm:gap-4">
+      <div className="flex flex-col justify-between w-full h-full my-4 mt-10 sm:h-96 sm:flex-row sm:gap-4">
         {/* BAR CHART */}
-        <div className="h-full flex-shrink px-4 py-4 bg-white rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] sm:w-1/2  w-full flex-grow-[2]">
+        <div className="h-full flex flex-shrink px-4 py-4 bg-white rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] sm:w-1/2  w-full flex-grow-[2]">
           <BarChart
             lable={[
               "January",
@@ -66,26 +66,29 @@ const DashBoard = () => {
           />
         </div>
         {/* TODO: INVENTORY  */}
-        <div className="flex justify-center w-1/2 h-full mx-auto mt-8 bg-white rounded-lg sm:mt-0 sm:w-1/2">
-          <PieChart labels={["Laptop", "Camera", "Jeans", "Shoes"]}
-          labelText={"Inventory"}
-          Cdata={[40, 60, 30, 100]}
-          bgColor={["#d7ecfb","#ffe0e6","#dbf2f2", "#ebe0ff"]}
-        borderColor={["#65b7ef", "#ff7e99","#6bcbcb", "#ad84ff"]}
-           />
+        <div className="flex justify-center w-full h-full mx-auto mt-8 bg-white rounded-lg sm:mt-0 sm:w-1/2">
+          <div className="flex justify-center w-full h-full">
+            <PieChart
+              labels={["Laptop", "Camera", "Jeans", "Shoes"]}
+              labelText={"Inventory"}
+              Cdata={[40, 60, 30, 100]}
+              bgColor={["#d7ecfb", "#ffe0e6", "#dbf2f2", "#ebe0ff"]}
+              borderColor={["#65b7ef", "#ff7e99", "#6bcbcb", "#ad84ff"]}
+            />
+          </div>
         </div>
       </div>
 
       {/* Gender{Donot} and Table */}
       <div className="flex flex-wrap justify-center w-full h-full gap-6 mt-4 mb-8 sm:flex-nowrap">
-        <div className=" w-1/2 py-8 px-3  bg-white flex flex-col justify-center rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-         
-            <DoughnutChart
-              data1={[70, 30]}
-              bg={["blue", "pink"]}
-              text={"Gender Ratio"}
-            />
-       
+        <div className=" w-full py-8 px-3  bg-white flex flex-col justify-center rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+         <div className="flex w-full h-full">
+         <DoughnutChart
+            data1={[70, 30]}
+            bg={["blue", "pink"]}
+            text={"Gender Ratio"}
+          />
+         </div>
         </div>
 
         {/* Table */}

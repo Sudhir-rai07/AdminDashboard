@@ -24,7 +24,7 @@ const App = () => {
         <Sidebar show={showSideBar} />
         <div className="sm:w-[calc(100%-256px)] w-full overflow-y-scroll">
         <Routes>
-            <Route path="/" element={<button className="w-full px-3 py-1 text-center border border-gray-200"><Link to={'/admin/dashboard'}>See dashboard</Link></button>} />
+            <Route path="/" element={<button className="px-3 py-1 text-center border border-gray-200"><Link to={'/admin/dashboard'}>See dashboard</Link></button>} />
             <Route path="/admin/dashboard" element={<DashBoard />} />
             <Route path="/admin/product" element={<Products />} />
             <Route path="/admin/customer" element={<Customers />} />

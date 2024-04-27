@@ -11,7 +11,7 @@ export default {
       }
     },
     screens:{
-      'sm': "768px",
+      'sm': "900px",
     }
   },
   plugins: [require('tailwind-scrollbar'),],
