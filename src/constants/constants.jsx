@@ -11,7 +11,7 @@ import { FaGamepad } from "react-icons/fa6";
 
 
 export const sideBar =[
-    {icon: <MdDashboard />, url: "/admin/dashboard", text: "Dashboard", id: "001"},
+    {icon: <MdDashboard />, url: "/", text: "Dashboard", id: "001"},
     {icon: <MdShoppingBag />, url: "/admin/product", text: "Product" ,id: "003"},
     {icon: <FaUser />, url: "/admin/customer", text: "Customer" ,id: "002"},
     {icon: <FaMoneyCheckDollar />, url: "/admin/transaction", text: "Transaction",id: "004"},
