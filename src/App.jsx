@@ -1,5 +1,5 @@
-import React, { Suspense, lazy, useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import React, { Suspense, lazy, useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from "react-router-dom";
 import Loader from "./Components/Loader";
 import Sidebar from "./Components/Sidebar";
 import DashBoard from "./Pages/DashBoard";
@@ -14,6 +14,7 @@ import StopWatch from "./Pages/StopWatch";
 
 const App = () => {
   const [showSideBar, setShowSideBar] = useState(false);
+
   const handleShowSidebar = () => {
     setShowSideBar((prev) => !prev);
   };
@@ -24,8 +25,7 @@ const App = () => {
         <Sidebar show={showSideBar} />
         <div className="sm:w-[calc(100%-256px)] w-full overflow-y-scroll">
         <Routes>
-            <Route path="/" element={<button className="px-3 py-1 text-center border border-gray-200"><Link to={'/admin/dashboard'}>See dashboard</Link></button>} />
-            <Route path="/admin/dashboard" element={<DashBoard />} />
+            <Route path="/" element={<DashBoard />} />
             <Route path="/admin/product" element={<Products />} />
             <Route path="/admin/customer" element={<Customers />} />
             <Route path="/admin/transaction" element={<Transaction />} />
